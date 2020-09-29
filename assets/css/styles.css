@@ -271,7 +271,9 @@ ul, li {
 .fund-company-logo {
   position: absolute;
   left: 5px;
-  top: 5px;
+  top: 8px;
+  width: 60px;
+  height: 60px;
 }
 
 .funding-company-type {
@@ -291,4 +293,38 @@ ul, li {
 
 .funding-company-info a {
   color: #746e64;
+}
+
+/* ----------- Hard Fork Section */
+
+.main-hardfork-news {
+  background: url(/assets/images/latest-news/latest-six.jpg);
+  background-size: 100% 100%;
+  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+  height: 210px;
+}
+
+.second-hardfork-news {
+  height: 96px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fff4f2;
+}
+
+.hardfork-a {
+  font-weight: 700;
+}
+
+.hard-fork-img {
+  min-width: 96px;
+  height: 96px;
+  background-image: url(/assets/images/hardfork.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hardfork-list{
+  list-style-type: square;
+  display: list-item;
+  list-style-position: initial;
 }
