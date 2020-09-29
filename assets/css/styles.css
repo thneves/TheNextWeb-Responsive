@@ -8,8 +8,16 @@ html, body {
   font-size: 60%;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
 /* BREAKPOINTS
-  775 px width
+  768 px width
   1020 px width
 */
 
@@ -21,10 +29,6 @@ html, body {
 
 .flex-vertical {
   flex-direction: column;
-}
-
-.no-text-decoration {
-  text-decoration: none;
 }
 
 .text-color-white {
@@ -44,7 +48,11 @@ html, body {
 }
 
 .font-small {
-  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.title-news-black {
+  color: black;
 }
 
 /* HEADER */
@@ -69,12 +77,12 @@ html, body {
 
 .search-icon-header {
   color: #e8e8e8;
-  font-size: 18px;
+  font-size: 2.2rem;
 }
 
 .menu-icon-header {
   color: #ff4422;
-  font-size: 18px;
+  font-size: 2.2rem;
 }
 
 .header-bottom {
@@ -89,7 +97,6 @@ html, body {
 
 .header-bottom-text {
   color: black;
-  font-size: 11px;
   text-decoration: none;
   padding: 18px 0;
 }
@@ -109,7 +116,7 @@ html, body {
 .page-news {
   height: 200px;
   width: 95%;
-  padding: 0 0 15px 10px;
+  padding: 0 10px 15px 10px;
   align-self: center;
   justify-content: flex-end;
   margin-bottom: 10px ;
@@ -121,20 +128,15 @@ html, body {
 }
 
 .page-news-heading {
-  font-size: 1.9rem;
-  line-height: 2.2rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
   font-weight: 700;
   margin: 5px 0;
-}
-
-.page-news-bottom {
-  font-size: 14px;
 }
 
 .main-page-news-2 {
   background: url(/assets/images/news-image-two.jpg);
   background-size: cover;
- 
 }
 
 .main-page-news-3 {
@@ -143,6 +145,16 @@ html, body {
   box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
 }
 
+/* LATEST NEWS SECTION */
+
+.latest-news-div {
+  padding: 30px 20px 15px 30px  ;
+}
+
+.latest-news-img {
+width: 80px;
+height: 85px;
+} 
 
 
 
