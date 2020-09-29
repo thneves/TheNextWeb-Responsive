@@ -47,8 +47,20 @@ ul, li {
   font-family: 'Archivo', sans-serif;
 }
 
+.font-smaller {
+  font-size: 1rem;
+}
+
 .font-small {
   font-size: 1.2rem;
+}
+
+.font-medium {
+  font-size: 1.5rem;
+}
+
+.font-title {
+  font-size: 2.6rem;
 }
 
 .title-news-black {
@@ -57,14 +69,21 @@ ul, li {
   line-height: 1.6rem;
 }
 
-.font-smaller {
-  font-size: 1rem;
+.orange-color {
+  color: #ff4422;
 }
 
 /* HEADER */
 
+.container {
+  margin-top: 100px;
+}
+
 .header {
   width: 100vw;
+  position: fixed;
+  background-color: white;
+  top: 0;
 }
 
 .header-top {
@@ -111,7 +130,6 @@ ul, li {
   font-size: 0.8rem;
 }
 
-
 /* FIRST PAGE NEWS SECTION */
 
 .main-page-news {
@@ -121,7 +139,7 @@ ul, li {
 }
 
 .page-news {
-  height: 200px;
+  height: 180px;
   width: 95%;
   padding: 0 10px 15px 10px;
   align-self: center;
@@ -155,8 +173,7 @@ ul, li {
 /* LATEST NEWS SECTION */
 
 .latest-news-div {
-  padding: 30px 20px 15px 30px  ;
-  justify-content: space-between;
+  padding: 10px 12px 5px 10px;
 }
 
 .latest-bg-img-1 {
@@ -204,12 +221,74 @@ ul, li {
 }
 
 .latest-text-container {
-  width: 180px;
+  margin-left: 10px;
 }
 
+.latest-text-container div a {
+  padding-right: 10px;
+}
 
+/* LATEST FUNDIND ROUND SECTION  */
 
+.funding-round-section {
+  margin-top: 30px;
+  width: 95%;
+  align-self: center;
+}
 
+.funding-round-h1 {
+  line-height: 2.8rem;
+}
 
+.funding-round-head  a {
+  font-weight: 300;
+  padding: 10px 0;
+}
 
+.funding-market-company {
+  position: relative;
+}
 
+.funding-market-company-top {
+  background:  #ff4422;
+  padding: 14px 0;
+  text-align: left;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.funding-market-company-bottom {
+  background: #ffebe7;
+  text-align: left;
+  padding: 20px 0 20px 80px;
+}
+
+.fund-company-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.fund-company-logo {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.funding-company-type {
+  margin: 10px 0;
+  background: #fffaf8;
+  border-bottom: 1px solid #ffebe7;
+}
+
+.funding-company-type i {
+  margin: 0 4px 6px 0;
+}
+
+.funding-company-info {
+  background: #fffaf8;
+  margin-bottom: 10px;
+}
+
+.funding-company-info a {
+  color: #746e64;
+}
