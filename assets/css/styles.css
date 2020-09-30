@@ -591,7 +591,7 @@ a {
 
 .footer-info {
   background: #000;
-  color: white;
+  color: #aaa5a0;
   font-size: 1.2rem;
   padding: 30px;
   align-items: center;
@@ -716,5 +716,61 @@ a {
     margin-bottom: 0;
   }
 
+  .latest-news-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-}
+  .latest-news-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-anchor {
+    min-height: 114px;
+  }
+
+  .latest-text-container {
+    margin: 10px 0 ;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+  }
+
+  .founding-horizontal-links {
+    display: flex;
+    flex-direction: row ;
+    padding: 0;
+  }
+
+  .founding-horizontal-links a {
+    padding-right: 15px;
+  }
+
+  .founding-horizontal-border {
+    border-right: 1px solid #ff4422;
+    margin-right: 10px;
+  }
+
+  .fund-company-name {
+    font-size: 14px;
+  }
+
+  .big-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .footer-info,
+  .footer-info span {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+} 
