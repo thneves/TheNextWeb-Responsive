@@ -74,7 +74,8 @@ a {
   justify-content: space-between;
 }
 
-.header-top-black {
+.header-top-black,
+.nav-white-list {
   display: none;
 }
 
@@ -305,9 +306,9 @@ a {
 
 .funding-company-type {
   margin: 10px 0 10px 12px;
-  padding-top: 10px;
+  padding: 10px 0 15px 0;
   background: #fffaf8;
-  border-bottom: 1px solid #ffebe7;
+  border-bottom: 1px solid #ffcdc2;
 }
 
 .company-type-name,
@@ -552,6 +553,10 @@ a {
 
 /* FOOTER */
 
+footer {
+  text-align: center;
+}
+
 .footer-links-div {
   background: #131313;
   align-items: center;
@@ -562,6 +567,7 @@ a {
   list-style: none;
   margin: 10px 0;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .footer-links-list-bottom {
@@ -631,6 +637,10 @@ a {
   text-decoration-color: #646464;
 }
 
+.news-by:hover {
+  color: #333333;
+}
+
 .search-icon-header:hover {
   color: gray;
 }
@@ -641,19 +651,18 @@ a {
   color: white;
 }
 
+/* MEDIA QUERIES */
+
 @media (min-width: 768px) {
+
    .header .menu-icon-header {
     display: none;
-  }
-   
-  .header-top-black {
+   }
+
+  .nav-black {
     display: flex;
     background-color: #333333;
     height: 32px;
-    width: 100%;
-  }
-
-  .nav-black {
     width: 100%;
     margin-left: 110px;
   }
@@ -662,6 +671,10 @@ a {
   .nav-white-list {
     list-style-type: none;
     align-items: center;
+  }
+
+  .nav-white-list {
+    display: flex;
   }
 
   .nav-black-list-item a,
@@ -772,5 +785,18 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .page-news-heading:hover {
+    text-decoration: none;
+  }
+
+  .main-page-news:hover,
+  .main-page-news-2:hover,
+  .main-page-news-3:hover
+   {
+    opacity: 0.95;
+    cursor: pointer;
+    transition: 0.5s;
   }
 } 
