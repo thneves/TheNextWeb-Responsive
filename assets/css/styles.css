@@ -63,11 +63,14 @@ a {
   color: black;
   margin-bottom: 5px;
   line-height: 1.6rem;
+  font-weight: bold;
 }
 
 .orange-color {
   color: #ff4422;
 }
+
+
 
 /* HEADER */
 
@@ -80,6 +83,7 @@ a {
   position: fixed;
   background-color: white;
   top: 0;
+  z-index: 1;
 }
 
 .header-top {
@@ -96,31 +100,31 @@ a {
   border-left: 1px solid #e8e8e8;
 }
 
+
 .search-icon-header {
   color: #e8e8e8;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
+
 
 .menu-icon-header {
   color: #ff4422;
   font-size: 2.2rem;
 }
 
-.header-bottom {
-  width: 100%;
-  background-color: #ffdd33;
-}
-
-.header-bottom a {
-  text-align: center;
-  text-decoration: none;
-}
-
 .header-bottom-text {
+  background-color: #ffdd33;
   color: black;
   text-decoration: none;
-  padding: 18px 0;
+  padding: 23px 0 23px 6px;
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
+
 
 /* FIRST PAGE NEWS SECTION */
 
@@ -162,7 +166,23 @@ a {
   box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
 }
 
+.post-by-name,
+.fa-clock,
+.fa-share-alt {
+  margin-right: 5px;
+}
+
+.fa-share-alt {
+  margin-left: 5px;
+}
+
+
+
 /* LATEST NEWS SECTION */
+
+.latest-news-h1 {
+  margin: 10px 0 20px 12px
+}
 
 .latest-news-div {
   padding: 10px 12px 5px 10px;
@@ -222,14 +242,21 @@ a {
 
 /* LATEST FUNDIND ROUND SECTION  */
 
+
+
 .funding-round-section {
   margin-top: 30px;
   width: 95%;
   align-self: center;
+  margin-left: 15px;
 }
 
 .funding-round-h1 {
   line-height: 2.8rem;
+}
+
+.funding-round-head {
+  margin-bottom: 20px;
 }
 
 .funding-round-head  a {
@@ -268,10 +295,21 @@ a {
   height: 60px;
 }
 
+.funding-market-company-bottom a {
+  font-weight: bold;
+}
+
 .funding-company-type {
-  margin: 10px 0;
+  margin: 10px 0 10px 12px;
+  padding-top: 10px;
   background: #fffaf8;
   border-bottom: 1px solid #ffebe7;
+}
+
+.company-type-name,
+.funding-company-info a {
+  color: #646464;
+  font-size: 1.4rem;
 }
 
 .funding-company-type i {
@@ -281,10 +319,12 @@ a {
 .funding-company-info {
   background: #fffaf8;
   margin-bottom: 10px;
+  padding-left: 15px;
 }
 
-.funding-company-info a {
-  color: #746e64;
+
+.end-text-whiter {
+  color: #aaaaaa;
 }
 
 /* ----------- Hard Fork Section --------- */
@@ -445,6 +485,16 @@ a {
 
 /* lastest deals sections */
 
+.lastest-deals-head {
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 12px;
+}
+
+.latest-deals-h5 {
+  font-weight: 300;
+}
+
 .text-line {
   text-decoration: line-through;
 }
@@ -512,6 +562,7 @@ a {
 
 .footer-links-list-bottom {
   list-style: none;
+  height: 50px;
 }
 
 .footer-list-items {
@@ -521,6 +572,11 @@ a {
   background-color: #333333;
   border: 2px solid #333333;
   border-radius: 50%;
+}
+
+.footer-list-items:hover {
+  background-color:#131313;
+  cursor: pointer;
 }
 
 .footer-items-bottom {
@@ -544,4 +600,39 @@ a {
 
 .footer-logos {
   padding: 0 3px;
+}
+
+/* Hover Effects */
+
+.font-title:hover,
+.latest-deals-h5:hover,
+.hardfork-list a:hover,
+.funding-more-links:hover,
+.company-type-name:hover {
+  color: black;
+}
+
+.latest-text-container p:hover {
+  color: #ff4422;
+}
+
+.latest-text-container p:hover,
+.page-news-heading:hover,
+.hardfork-a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffcdc2;
+}
+
+.page-news-heading:hover {
+  text-decoration-color: #646464;
+}
+
+.search-icon-header:hover {
+  color: gray;
+}
+
+.post-by-name:hover,
+.page-news-bottom a:hover,
+.footer-items-bottom:hover {
+  color: white;
 }

@@ -14,14 +14,14 @@
     <div class="header-top d-flex">
       <img class="logo-small" src="assets/images/logo.png" alt="the next web logo">
       <div class="header-btns">
-        <span><i class="fas fa-search search-icon-header"></i></span>
-        <span><i class="fas fa-bars menu-icon-header"></i></span>
+        <a href="#"><i class="fas fa-search search-icon-header"></i></a>
+        <a href="#"><i class="fas fa-bars menu-icon-header"></i></a>
       </div>
     </div>
 
-    <div class="header-bottom">
-      <a href="#"><p class="header-bottom-text font-small">Stay home. Go global. Build your network at TNW2020 Online &#8594;</p></a>
-    </div>
+    <a class="header-bottom"  href="#">
+      <div class="header-bottom-text font-small">Stay home. Go global. Build your network at TNW2020 Online &#8594;</div>
+    </a>
   </header>
   <main class="container d-flex flex-vertical">
 
@@ -31,7 +31,7 @@
         <a class="page-news-title text-color-white second-font" href="#">TECH</a>
         <a class="" href="#"><h2 class="page-news-heading text-color-white primary-font">Recently discovered 'salty lakes' on Mars could be teeming with alien life.</h2></a>
         <div class="d-flex text-color-gray page-news-bottom">
-          <a class="text-color-gray font-small" href="#">by Tristan Greene</a>&nbsp;<i class="font-small far fa-clock"></i>&nbsp;<span class="font-small">43 minutes ago</span>&nbsp;<i class="fas fa-share-alt font-small"></i>&nbsp;<span class="font-small">1</span>
+          <a class="text-color-gray font-small post-by-name" href="#">by Tristan Greene</a>&nbsp;<i class="font-small far fa-clock"></i>&nbsp;<span class="font-small">43 minutes ago</span>&nbsp;<i class="fas fa-share-alt font-small"></i>&nbsp;<span class="font-small">1</span>
         </div>
       </div>
 
@@ -41,19 +41,21 @@
       <div class="page-news main-page-news-3 d-flex flex-vertical">
         <a href="#"><h2 class="page-news-heading text-color-white primary-font">Amsterdam and Helsinki become first cities to launch AI registers explaining how they use algorithms.</h2></a>
         <div class="d-flex text-color-gray page-news-bottom">
-          <a class="text-color-gray font-small" href="#">by Thomas Macaulay</a>&nbsp;<i class="font-small far fa-clock"></i>&nbsp;<span class="font-small">2 hours ago</span>&nbsp;<i class="fas fa-share-alt font-small"></i>&nbsp;<span class="font-small">4</span>
+          <a class="text-color-gray font-small post-by-name" href="#">by Thomas Macaulay</a>&nbsp;<i class="font-small far fa-clock"></i>&nbsp;<span class="font-small">2 hours ago</span>&nbsp;<i class="fas fa-share-alt font-small"></i>&nbsp;<span class="font-small">4</span>
         </div>
       </div>
     </section>
 
+    <!-- LATEST NEWS SECTION -->
    
     <section class="latest-news-section">
+      <a href="#"><h1 class="latest-news-h1 font-title orange-color second-font">Latest news ></h1></a> 
       <div class="latest-news-div d-flex">
         <div class="latest-bg-img-1 latest-news-anchor">
           
         </div>
         <div class="latest-text-container">
-          <a href="#"><p class="title-news-black font-medium second-font">How Jason Fried wants to change your perception of email with Hey</p></a>
+          <a href="#"><p class="title-news-black font-medium primary-font">How Jason Fried wants to change your perception of email with Hey</p></a>
           <div class="d-flex">
             <a href="#" class="text-color-gray font-small">Ivan Mehta</a>
             <span class="text-color-gray font-small">19 minutes ago</span>
@@ -151,9 +153,9 @@
     <section class="funding-round-section d-flex flex-vertical">
       <div class="funding-round-head d-flex flex-vertical">
         <a href="#"><h1 class="funding-round-h1 font-title orange-color primary-font">Latest funding rounds on Index.co ></h1></a>
-        <a class="orange-color font-medium second-font" href="#">See more</a>
-        <a class="orange-color font-medium second-font" href="#">Get updates by email</a>
-        <a class="orange-color font-medium second-font" href="#">Add info</a>        
+        <a class="orange-color font-medium second-font funding-more-links" href="#">See more</a>
+        <a class="orange-color font-medium second-font funding-more-links" href="#">Get updates by email</a>
+        <a class="orange-color font-medium second-font funding-more-links" href="#">Add info</a>        
       </div>
 
       <div class="funding-market font-medium">
@@ -168,12 +170,12 @@
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
-          <a class="title-news-black font-small" href="#"><i class="fas fa-tag"></i>Retail</a>
-          <a class="title-news-black font-small" href="#"><i class="fas fa-briefcase"></i>Hearst Ventures, +5</a>
+          <a class="company-type-name" href="#"><i class="fas fa-tag title-news-black"></i>  Retail</a>
+          <a class="company-type-name" href="#"><i class="fas fa-briefcase title-news-black"></i>  Hearst Ventures, +5</a>
         </div>
         <div class="funding-company-info">
           <a href="#">
-            Huboo, the ‘full stack’ fulfilment provider, picks up £14M Series A <span class="text-color-gray">on TechCrunch</span>
+            Huboo, the ‘full stack’ fulfilment provider, picks up £14M Series A <span class="end-text-whiter">on TechCrunch</span>
         </a>
         </div>
       </div>
@@ -190,12 +192,12 @@
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
-          <a class="title-news-black font-small" href="#"><i class="fas fa-tag"></i>Entreprise Software, +4</a>
-          <a class="title-news-black font-small" href="#"><i class="fas fa-briefcase"></i>Rhino Ventures (Formerly Vancouver Founder Fund)</a>
+          <a class="company-type-name" href="#"><i class="fas fa-tag title-news-black"></i>  Entreprise Software, +4</a>
+          <a class="company-type-name" href="#"><i class="fas fa-briefcase title-news-black"></i>  Rhino Ventures (Formerly Vancouver Founder Fund)</a>
         </div>
         <div class="funding-company-info">
           <a href="#">
-            Online course platform Thinkific raises $22M <span class="text-color-gray">on TechCrunch</span>
+            Online course platform Thinkific raises $22M <span class="end-text-whiter">on TechCrunch</span>
         </a>
         </div>
       </div>
@@ -212,12 +214,12 @@
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
-          <a class="title-news-black font-small" href="#"><i class="fas fa-tag"></i>Networking, +2</a>
-          <a class="title-news-black font-small" href="#"><i class="fas fa-briefcase"></i>Spring Mountain Capital, +5</a>
+          <a class="company-type-name" href="#"><i class="fas fa-tag title-news-black"></i>  Networking, +2</a>
+          <a class="company-type-name" href="#"><i class="fas fa-briefcase title-news-black"></i>  Spring Mountain Capital, +5</a>
         </div>
         <div class="funding-company-info">
           <a href="#">
-            Koneksa Closes $16M Series B Financing <span class="text-color-gray">on TechCrunch</span>
+            Koneksa Closes $16M Series B Financing <span class="end-text-whiter">on TechCrunch</span>
         </a>
         </div>
       </div>
@@ -226,7 +228,7 @@
 
     <!-- HARDFORK -->
 
-    <section class="d-flex flex-vertical">
+    <section class="d-flex flex-vertical funding-round-section">
       <div class="funding-round-head d-flex flex-vertical">
         <a href="#"><h1 class="funding-round-h1 font-title orange-color primary-font">Hard Fork ></h1></a>       
       </div>
@@ -508,6 +510,10 @@
     <!-- LASTEST DEALS SECTION -->
 
     <section class="latest-news-section">
+      <div class="d-flex lastest-deals-head">
+        <a href="#"><h1 class="font-title orange-color primary-font">Latest deals ></h1></a>
+        <a href="#"><h5 class="latest-deals-h5 orange-color primary-font font-small">See all Deals</h5></a>  
+      </div>
       <div class="latest-news-div d-flex">
         <div class="deals-bg-img-1 latest-news-anchor">
           
