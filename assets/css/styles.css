@@ -70,8 +70,6 @@ a {
   color: #ff4422;
 }
 
-
-
 /* HEADER */
 
 .container {
@@ -135,7 +133,9 @@ a {
 }
 
 .page-news {
-  height: 180px;
+  min-height: 180px;
+  max-height: 500px;
+  max-width: 100%;
   width: 95%;
   padding: 0 10px 15px 10px;
   align-self: center;
@@ -360,6 +360,7 @@ a {
 
 .main-hardfork-news,
 .main-app-news,
+.main-gear-news,
 .main-tech-news,
 .main-creative-news,
 .main-podium-news,
@@ -367,7 +368,7 @@ a {
 .main-launch-news,
 .main-distract-news { 
   box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
-  height: 210px;
+  min-height: 180px;
 }
 
 .hard-fork-img,
@@ -385,7 +386,7 @@ a {
 
 .main-hardfork-news {
   background: url(/assets/images/latest-news/latest-six.jpg);
-  background-size: 100% 100%;
+
 }
 
 .hard-fork-img {
@@ -635,4 +636,14 @@ a {
 .page-news-bottom a:hover,
 .footer-items-bottom:hover {
   color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+
+    .header .fa-bars {
+    display: none;
+  }
+
 }
