@@ -70,7 +70,9 @@ a {
   color: #ff4422;
 }
 
-
+.space-b {
+  justify-content: space-between;
+}
 
 /* HEADER */
 
@@ -123,8 +125,6 @@ a {
   overflow: hidden;
   white-space: nowrap;
 }
-
-
 
 /* FIRST PAGE NEWS SECTION */
 
@@ -367,7 +367,7 @@ a {
 .main-launch-news,
 .main-distract-news { 
   box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
-  height: 210px;
+
 }
 
 .hard-fork-img,
