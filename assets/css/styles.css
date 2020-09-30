@@ -74,6 +74,10 @@ a {
   justify-content: space-between;
 }
 
+.header-top-black {
+  display: none;
+}
+
 /* HEADER */
 
 .container {
@@ -635,4 +639,82 @@ a {
 .page-news-bottom a:hover,
 .footer-items-bottom:hover {
   color: white;
+}
+
+@media (min-width: 768px) {
+   .header .menu-icon-header {
+    display: none;
+  }
+   
+  .header-top-black {
+    display: flex;
+    background-color: #333333;
+    height: 32px;
+    width: 100%;
+  }
+
+  .nav-black {
+    width: 100%;
+    margin-left: 110px;
+  }
+
+  .nav-black-list,
+  .nav-white-list {
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .nav-black-list-item a,
+  .nav-white-list-item a {
+    color: #aaa5a0;
+    margin: 0 8px;
+    align-self: center;
+  }
+
+  .news-white a {
+    color: white;
+  }
+
+  .nav-white {
+    width: 100%;
+    align-self: center;
+    margin-left: 110px;
+  }
+
+  .header-bottom-text {
+    text-align: left;
+    padding: 8px 0 8px 118px;
+  }
+
+  .logo-small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 81px;
+    width: 106px;
+    padding: 15px;
+    background-color: black;
+  }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row: 1fr 1fr;
+    margin-top: 15px;
+    row-gap: 10px;
+  }
+
+  .main-page-news {
+    grid-row: 1/3 ;
+    height: 100%;
+    margin: 0 auto
+  }
+
+  .main-page-news-2,
+  .main-page-news-3 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+
 }
