@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="assets/css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="assets/css/desktop.css">
   <script src="https://kit.fontawesome.com/0a8239681c.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
   <title>The Next Web</title>
 </head>
 <body>
-
-  <!-- TABLET VERSION -> Fix and navbar top, border right orange, images as links, set underline hover on tiltles news -->
 
 
   <header class="header d-flex flex-vertical">
@@ -209,7 +209,7 @@
           </div>
           <div class="funding-market-company-bottom d-flex flex-vertical">
             <a class="title-news-black" href="#">&#8364;14M.</a>
-            <a class="text-color-gray font-small"href="#">SERIES A</a>
+            <a class="text-color-gray font-small" href="#">SERIES A</a>
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
@@ -231,7 +231,7 @@
           </div>
           <div class="funding-market-company-bottom d-flex flex-vertical">
             <a class="title-news-black" href="#">$22M.</a>
-            <a class="text-color-gray font-small"href="#">VENTURE CAPITAL</a>
+            <a class="text-color-gray font-small" href="#">VENTURE CAPITAL</a>
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
@@ -253,7 +253,7 @@
           </div>
           <div class="funding-market-company-bottom d-flex flex-vertical">
             <a class="title-news-black" href="#">$16M.</a>
-            <a class="text-color-gray font-small"href="#">SERIES B</a>
+            <a class="text-color-gray font-small" href="#">SERIES B</a>
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
@@ -267,7 +267,7 @@
         </div>
       </div>
       <!-- 4th founding market div -->
-      <div class="funding-market font-medium">
+      <div class="funding-market font-medium funding-market-inv">
         <div class="funding-market-company d-flex flex-vertical">
           <a><img class="fund-company-logo" src="/assets/images/funding-rounds/logo-three.jpg" alt="company logo"></a>
           <div class="funding-market-company-top">
@@ -275,7 +275,7 @@
           </div>
           <div class="funding-market-company-bottom d-flex flex-vertical">
             <a class="title-news-black" href="#">$16M.</a>
-            <a class="text-color-gray font-small"href="#">SERIES B</a>
+            <a class="text-color-gray font-small" href="#">SERIES B</a>
           </div>
         </div>
         <div class="funding-company-type d-flex flex-vertical">
@@ -596,7 +596,7 @@
     <!-- LASTEST DEALS SECTION -->
 
     <div class="d-flex lastest-deals-head">
-      <a href="#"><h1 class="font-title orange-color primary-font">Latest deals ></h1></a>
+      <a href="#"><h1 class="latest-deals-h1 font-title orange-color primary-font">Latest deals ></h1></a>
       <a href="#"><h5 class="latest-deals-h5 orange-color primary-font font-small">See all Deals</h5></a>  
     </div>
     <section class="latest-news-section">
@@ -702,7 +702,7 @@
 
   <footer>
     <div class="footer-links-div d-flex flex-vertical">
-      <div class="d-flex">
+     
         <ul class="footer-links-list d-flex">
            <li class="footer-list-items">
             <a href="#"><i class="fab fa-facebook-square text-color-white"></i></a>
@@ -726,8 +726,8 @@
             <a href="#"><i class="fas fa-envelope text-color-white"></i></a>
           </li>
         </ul>
-      </div>
-      <div class="second-font">
+     
+     
        <ul class="footer-links-list-bottom d-flex primary-font">
          <li>
            <a class="footer-items-bottom" href="#">EVENTS</a>
@@ -746,7 +746,7 @@
         </li>
        </ul>
 
-      </div>
+      
     </div>
     <div class="footer-info d-flex flex-vertical second-font">
      
@@ -760,8 +760,12 @@
         </span>
       </div>
 
-    </div>
+ 
   </footer>
+
+  <button type="button" class="access-btn">
+    <i class="fab fa-accessible-icon"></i>
+  </button>
   
 </body>
 </html>

@@ -12,11 +12,6 @@ a {
   text-decoration: none;
 }
 
-/* BREAKPOINTS
-  768 px width
-  1020 px width
-*/
-
 /* GLOBAL SETTINGS */
 
 .d-flex {
@@ -78,7 +73,8 @@ a {
 .nav-white-list,
 .ticket-btn,
 .happening-now,
-.tnw2020 {
+.tnw2020,
+.funding-market-inv {
   display: none;
 }
 
@@ -87,6 +83,16 @@ a {
   visibility: hidden;
 }
 
+.access-btn {
+  background-color: #146ff8;
+  padding: 8px 10px;
+  font-size: 2.2rem;
+  color: white;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  border: none;
+}
 
 /* HEADER */
 
@@ -121,7 +127,6 @@ a {
   color: #e8e8e8;
   font-size: 2rem;
 }
-
 
 .menu-icon-header {
   color: #ff4422;
@@ -190,8 +195,6 @@ a {
   margin-left: 5px;
 }
 
-
-
 /* LATEST NEWS SECTION */
 
 .latest-news-h1 {
@@ -256,8 +259,6 @@ a {
 
 /* LATEST FUNDIND ROUND SECTION  */
 
-
-
 .funding-round-section {
   margin-top: 30px;
   width: 95%;
@@ -273,7 +274,7 @@ a {
   margin-bottom: 20px;
 }
 
-.funding-round-head  a {
+.funding-round-head a {
   font-weight: 300;
   padding: 10px 0;
 }
@@ -335,7 +336,6 @@ a {
   margin-bottom: 10px;
   padding-left: 15px;
 }
-
 
 .end-text-whiter {
   color: #aaaaaa;
@@ -564,10 +564,6 @@ a {
 
 /* FOOTER */
 
-footer {
-  text-align: center;
-}
-
 .footer-links-div {
   background: #131313;
   align-items: center;
@@ -576,14 +572,21 @@ footer {
 
 .footer-links-list {
   list-style: none;
-  margin: 10px 0;
-  text-align: center;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  width: 90%;
+  max-width: 340px;
+  margin: 25px 0;
 }
 
 .footer-links-list-bottom {
   list-style: none;
-  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 280px;
 }
 
 .footer-list-items {
@@ -664,292 +667,5 @@ footer {
 
 .gray-underline:hover {
   text-decoration: underline;
-  text-decoration-color: #646464
-}
-
-/* MEDIA QUERIES */
-
-@media (min-width: 768px) {
-
-   .header .menu-icon-header {
-    display: none;
-   }
-
-  .nav-black {
-    display: flex;
-    background-color: #131313;
-    height: 32px;
-    width: 100%;
-    padding-left: 110px;
-  }
-
-  .nav-black-list-item a:hover {
-    color: white;
-  }
-
-  .nav-black-list,
-  .nav-white-list {
-    list-style-type: none;
-    align-items: center;
-  }
-
-  .nav-white-list {
-    display: flex;
-  }
-
-  .nav-black-list-item a,
-  .nav-white-list-item a {
-    color: #aaa5a0;
-    margin: 0 8px;
-    align-self: center;
-  }
-
-  .news-white a {
-    color: white;
-  }
-
-  .nav-white {
-    width: 100%;
-    align-self: center;
-    margin-left: 110px;
-  }
-
-  .nav-white-list-item a:hover {
-    color: black;
-  }
-
-  .header-bottom-text {
-    text-align: left;
-    padding: 8px 0 8px 118px;
-  }
-
-  .logo-small {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 81px;
-    width: 106px;
-    padding: 15px;
-    background-color: black;
-  }
-
-  .grid1-2 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-row: 1fr 1fr;
-    margin-top: 15px;
-    row-gap: 10px;
-  }
-
-  .main-page-news {
-    grid-row: 1/3 ;
-    height: 100%;
-    margin: 0 auto
-  }
-
-  .main-page-news-2,
-  .main-page-news-3 {
-    width: 100%;
-    margin-bottom: 0;
-  }
-
-  .latest-news-section {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 15px;
-  }
-
-  .latest-news-div {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .latest-news-anchor {
-    min-height: 114px;
-  }
-
-  .latest-text-container {
-    margin: 10px 0 ;
-  }
-
-.main-hardfork-news,
-.main-app-news,
-.main-gear-news,
-.main-tech-news,
-.main-creative-news,
-.main-podium-news,
-.main-insights-news,
-.main-launch-news,
-.main-distract-news { 
-  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
-  min-height: 250px;
-}
-
-  .grid-3 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-  }
-
-  .founding-horizontal-links {
-    display: flex;
-    flex-direction: row ;
-    padding: 0;
-  }
-
-  .founding-horizontal-links a {
-    padding-right: 15px;
-  }
-
-  .funding-round-head  a {
-    padding: 0 10px 0 0;
-    margin: 10px 10px 0 0;
-  }
-  
-
-  .founding-horizontal-border {
-    border-right: 1px solid #ff4422;
-    padding-right: 10px;
-  }
-
-  .fund-company-name {
-    font-size: 14px;
-  }
-
-  .big-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  .footer-info,
-  .footer-info span {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .page-news-heading:hover {
-    text-decoration: none;
-  }
-
-  .main-page-news:hover,
-  .main-page-news-2:hover,
-  .main-page-news-3:hover
-   {
-    opacity: 0.95;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-} 
-
-@media (min-width: 1024px) {
-  .logo-small {
-    display: none;
-  }
-
-  .nav-black,
-  .nav-white {
-    padding-left: 0;
-  }
-
-  .nav-white {
-    margin-left: 0;
-  }
-
-  .header-bottom-text {
-    padding-left: 10px;
-  }
-
-  .ticket-btn,
-  .happening-now,
-  .tnw2020 {
-    display: flex;
-  }
-
-  .tnw2020 {
-    height: 50px;
-    width: 120px;
-  }
-
-  .happening-now {
-    width: 120px;
-    align-self: center;
-    color: #545454;
-  }
-
-  .ticket-btn {
-    color: white;
-    font-weight: bold;
-    background-color: #00cccc;
-    border-radius: 3px;
-    width: 85px;
-    text-align: center;
-    align-self: center;
-    border: none;
-    margin-right: 10px;
-    padding: 5px;
-  }
-
-  .page-news {
-    position: relative;
-  }
-
-  .big-white-logo,
-  .date {
-    visibility: visible;
-    position: absolute;
-    top: 15px;
-  }
-
-  .big-white-logo {
-    left: 15px;
-    width: 50%;
-  }
-
-  .date {
-    right: 20px;
-  }
-
-  .date {
-    color: white;
-  }
-
-  .bigest-font {
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-
-  .bigger-font {
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-  }
-
-  .latest-news-section {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 15px;
-  }
-
-  .funding-round-head {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .grid-3 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 15px;
-  }
-
-  .big-grid {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-  }
+  text-decoration-color: #646464;
 }
