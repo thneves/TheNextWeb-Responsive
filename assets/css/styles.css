@@ -74,10 +74,19 @@ a {
   justify-content: space-between;
 }
 
-.header-top-black,
-.nav-white-list {
+.nav-black,
+.nav-white-list,
+.ticket-btn,
+.happening-now,
+.tnw2020 {
   display: none;
 }
+
+.date,
+.big-white-logo {
+  visibility: hidden;
+}
+
 
 /* HEADER */
 
@@ -835,3 +844,112 @@ footer {
     transition: 0.5s;
   }
 } 
+
+@media (min-width: 1024px) {
+  .logo-small {
+    display: none;
+  }
+
+  .nav-black,
+  .nav-white {
+    padding-left: 0;
+  }
+
+  .nav-white {
+    margin-left: 0;
+  }
+
+  .header-bottom-text {
+    padding-left: 10px;
+  }
+
+  .ticket-btn,
+  .happening-now,
+  .tnw2020 {
+    display: flex;
+  }
+
+  .tnw2020 {
+    height: 50px;
+    width: 120px;
+  }
+
+  .happening-now {
+    width: 120px;
+    align-self: center;
+    color: #545454;
+  }
+
+  .ticket-btn {
+    color: white;
+    font-weight: bold;
+    background-color: #00cccc;
+    border-radius: 3px;
+    width: 85px;
+    text-align: center;
+    align-self: center;
+    border: none;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .page-news {
+    position: relative;
+  }
+
+  .big-white-logo,
+  .date {
+    visibility: visible;
+    position: absolute;
+    top: 15px;
+  }
+
+  .big-white-logo {
+    left: 15px;
+    width: 50%;
+  }
+
+  .date {
+    right: 20px;
+  }
+
+  .date {
+    color: white;
+  }
+
+  .bigest-font {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .bigger-font {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .latest-news-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 15px;
+  }
+
+  .funding-round-head {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+  }
+
+  .big-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+  }
+}
