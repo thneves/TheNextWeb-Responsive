@@ -148,7 +148,7 @@ a {
 /* FIRST PAGE NEWS SECTION */
 
 .main-page-news {
-  background: url(/assets/images/news-image-one.png);
+  background: url(assets/images/news-image-one.png);
   background-position: left 25% top 10%;
   background-size: 100% 100%;
 }
