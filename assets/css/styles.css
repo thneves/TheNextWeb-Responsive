@@ -186,7 +186,7 @@ a {
 /* LATEST NEWS SECTION */
 
 .latest-news-h1 {
-  margin: 10px 0 20px 12px
+  margin: 40px 0 30px 18px
 }
 
 .latest-news-div {
@@ -335,9 +335,10 @@ a {
 /* ----------- Hard Fork Section --------- */
 
 .second-hardfork-news {
-  height: 96px;
+  height: 98px;
   width: 95%;
-  margin: 0 auto;
+  padding-left: 18px;
+  margin: -8px 0 0 0;
   background-color: #fff4f2;
 }
 
@@ -365,6 +366,7 @@ a {
 
 .main-hardfork-news,
 .main-app-news,
+.main-gear-news,
 .main-tech-news,
 .main-creative-news,
 .main-podium-news,
@@ -372,7 +374,6 @@ a {
 .main-launch-news,
 .main-distract-news { 
   box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
-
 }
 
 .hard-fork-img,
@@ -391,6 +392,7 @@ a {
 .main-hardfork-news {
   background: url(/assets/images/latest-news/latest-six.jpg);
   background-size: 100% 100%;
+  z-index: -1;
 }
 
 .hard-fork-img {
@@ -493,7 +495,7 @@ a {
 .lastest-deals-head {
   justify-content: space-between;
   align-items: center;
-  margin: 10px 12px;
+  margin: 10px 25px;
 }
 
 .latest-deals-h5 {
@@ -651,6 +653,11 @@ footer {
   color: white;
 }
 
+.gray-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: #646464
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -661,10 +668,14 @@ footer {
 
   .nav-black {
     display: flex;
-    background-color: #333333;
+    background-color: #131313;
     height: 32px;
     width: 100%;
-    margin-left: 110px;
+    padding-left: 110px;
+  }
+
+  .nav-black-list-item a:hover {
+    color: white;
   }
 
   .nav-black-list,
@@ -692,6 +703,10 @@ footer {
     width: 100%;
     align-self: center;
     margin-left: 110px;
+  }
+
+  .nav-white-list-item a:hover {
+    color: black;
   }
 
   .header-bottom-text {
@@ -733,6 +748,7 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 15px;
   }
 
   .latest-news-div {
@@ -747,6 +763,19 @@ footer {
   .latest-text-container {
     margin: 10px 0 ;
   }
+
+.main-hardfork-news,
+.main-app-news,
+.main-gear-news,
+.main-tech-news,
+.main-creative-news,
+.main-podium-news,
+.main-insights-news,
+.main-launch-news,
+.main-distract-news { 
+  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+  min-height: 250px;
+}
 
   .grid-3 {
     display: grid;
@@ -765,9 +794,15 @@ footer {
     padding-right: 15px;
   }
 
+  .funding-round-head  a {
+    padding: 0 10px 0 0;
+    margin: 10px 10px 0 0;
+  }
+  
+
   .founding-horizontal-border {
     border-right: 1px solid #ff4422;
-    margin-right: 10px;
+    padding-right: 10px;
   }
 
   .fund-company-name {
