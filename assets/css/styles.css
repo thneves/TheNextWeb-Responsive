@@ -206,35 +206,35 @@ a {
 }
 
 .latest-bg-img-1 {
-  background-image: url(/assets/images/latest-news/latest-one.jpg);
+  background-image: url(assets/images/latest-news/latest-one.jpg);
 }
 
 .latest-bg-img-2 {
-  background-image: url(/assets/images/latest-news/latest-two.png);
+  background-image: url(assets/images/latest-news/latest-two.png);
 }
 
 .latest-bg-img-3 {
-  background-image: url(/assets/images/latest-news/latest-three.jpg);
+  background-image: url(assets/images/latest-news/latest-three.jpg);
 }
 
 .latest-bg-img-4 {
-  background-image: url(/assets/images/latest-news/latest-four.png);
+  background-image: url(assets/images/latest-news/latest-four.png);
 }
 
 .latest-bg-img-5 {
-  background-image: url(/assets/images/latest-news/latest-five.png);
+  background-image: url(assets/images/latest-news/latest-five.png);
 }
 
 .latest-bg-img-6 {
-  background-image: url(/assets/images/latest-news/latest-six.jpg);
+  background-image: url(assets/images/latest-news/latest-six.jpg);
 }
 
 .latest-bg-img-7 {
-  background-image: url(/assets/images/latest-news/latest-seven.jpg);
+  background-image: url(assets/images/latest-news/latest-seven.jpg);
 }
 
 .latest-bg-img-8 {
-  background-image: url(/assets/images/latest-news/latest-eigth.jpg);
+  background-image: url(assets/images/latest-news/latest-eigth.jpg);
 }
 
 .latest-news-anchor {
@@ -399,101 +399,101 @@ a {
 }
 
 .main-hardfork-news {
-  background: url(/assets/images/latest-news/latest-six.jpg);
+  background: url(assets/images/latest-news/latest-six.jpg);
   background-size: 100% 100%;
   z-index: -1;
 }
 
 .hard-fork-img {
-  background-image: url(/assets/images/more-news/hardfork-small.jpg);
+  background-image: url(assets/images/more-news/hardfork-small.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .main-app-news {
-  background: url(/assets/images/more-news/app-big.png);
+  background: url(assets/images/more-news/app-big.png);
   background-size: 100% 100%;
 }
 
 .app-img {
-  background-image: url(/assets/images/more-news/app-small.jpg);
+  background-image: url(assets/images/more-news/app-small.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .main-gear-news {
-  background: url(/assets/images/more-news/gear-big.png);
+  background: url(assets/images/more-news/gear-big.png);
   background-size: 100% 100%;
 }
 
 .gear-img {
-  background-image: url(/assets/images/more-news/gear-small.jpg);
+  background-image: url(assets/images/more-news/gear-small.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .main-tech-news {
-  background: url(/assets/images/more-news/tech-big.png);
+  background: url(assets/images/more-news/tech-big.png);
   background-size: 100% 100%;
 }
 
 .tech-img {
-  background: url(/assets/images/more-news/tech-small.png);
+  background: url(assets/images/more-news/tech-small.png);
   background-position: center;
   background-size: cover;
 }
 
 .main-creative-news {
-  background: url(/assets/images/more-news/creative-big.jpg);
+  background: url(assets/images/more-news/creative-big.jpg);
   background-size: 100% 100%;
 }
 
 .creative-img {
-  background: url(/assets/images/more-news/creative-small.png);
+  background: url(assets/images/more-news/creative-small.png);
   background-position: center;
   background-size: cover;
 }
 
 .main-podium-news {
-  background: url(/assets/images/more-news/podium-big.png);
+  background: url(assets/images/more-news/podium-big.png);
   background-size: 100% 100%;
 }
 
 .podium-img {
-  background: url(/assets/images/more-news/podium-small.jpg);
+  background: url(assets/images/more-news/podium-small.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .main-insights-news {
-  background: url(/assets/images/more-news/insights-big.png);
+  background: url(assets/images/more-news/insights-big.png);
   background-size: 100% 100%;
 }
 
 .insights-img {
-  background: url(/assets/images/more-news/insights-small.jpg);
+  background: url(assets/images/more-news/insights-small.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .main-launch-news {
-  background: url(/assets/images/more-news/launch-big.jpg);
+  background: url(assets/images/more-news/launch-big.jpg);
   background-size: 100% 100%;
 }
 
 .launch-img {
-  background: url(/assets/images/more-news/launch-small.png);
+  background: url(assets/images/more-news/launch-small.png);
   background-position: center;
   background-size: cover;
 }
 
 .main-distract-news {
-  background: url(/assets/images/more-news/distract-big.png);
+  background: url(assets/images/more-news/distract-big.png);
   background-size: 100% 100%;
 }
 
 .distract-img {
-  background: url(/assets/images/more-news/distract-small.jpg);
+  background: url(assets/images/more-news/distract-small.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -515,49 +515,49 @@ a {
 }
 
 .deals-bg-img-1 {
-  background: url(/assets/images/latest-deals/deals-one.jpg);
+  background: url(assets/images/latest-deals/deals-one.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-2 {
-  background: url(/assets/images/latest-deals/deals-two.jpg);
+  background: url(assets/images/latest-deals/deals-two.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-3 {
-  background: url(/assets/images/latest-deals/deals-three.jpg);
+  background: url(assets/images/latest-deals/deals-three.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-4 {
-  background: url(/assets/images/latest-deals/deals-four.jpg);
+  background: url(assets/images/latest-deals/deals-four.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-5 {
-  background: url(/assets/images/latest-deals/deals-five.jpg);
+  background: url(assets/images/latest-deals/deals-five.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-6 {
-  background: url(/assets/images/latest-deals/deals-six.jpg);
+  background: url(assets/images/latest-deals/deals-six.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-7 {
-  background: url(/assets/images/latest-deals/deals-seven.jpg);
+  background: url(assets/images/latest-deals/deals-seven.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .deals-bg-img-8 {
-  background: url(/assets/images/latest-deals/deals-eight.jpg);
+  background: url(assets/images/latest-deals/deals-eight.jpg);
   background-size: cover;
   background-position: center;
 }
