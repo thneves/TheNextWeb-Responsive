@@ -21,10 +21,6 @@
   color: white;
 }
 
-.nav-black-list-item a:hover {
-  color: white;
-}
-
 .nav-black-list,
 .nav-white-list {
   list-style-type: none;
@@ -125,7 +121,7 @@
 .main-insights-news,
 .main-launch-news,
 .main-distract-news {
-  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
   min-height: 250px;
 }
 
@@ -179,4 +175,8 @@
   opacity: 0.95;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.nav-black-list-item a:hover {
+  color: white;
 }
