@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-size: 60%;
 }
 
@@ -62,7 +63,7 @@ a {
 }
 
 .orange-color {
-  color: #ff4422;
+  color: #f42;
 }
 
 .space-b {
@@ -122,19 +123,18 @@ a {
   border-left: 1px solid #e8e8e8;
 }
 
-
 .search-icon-header {
   color: #e8e8e8;
   font-size: 2rem;
 }
 
 .menu-icon-header {
-  color: #ff4422;
+  color: #f42;
   font-size: 2.2rem;
 }
 
 .header-bottom-text {
-  background-color: #ffdd33;
+  background-color: #fd3;
   color: black;
   text-decoration: none;
   padding: 23px 0 23px 6px;
@@ -159,8 +159,8 @@ a {
   padding: 0 10px 15px 10px;
   align-self: center;
   justify-content: flex-end;
-  margin-bottom: 10px ;
-  box-shadow: inset -11px -30px 30px 23px rgba(0,0,0,0.9);
+  margin-bottom: 10px;
+  box-shadow: inset -11px -30px 30px 23px rgba(0, 0, 0, 0.9);
 }
 
 .page-news-title {
@@ -182,7 +182,7 @@ a {
 .main-page-news-3 {
   background: url(/assets/images/news-image-three.png);
   background-size: 100% 100%;
-  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
 }
 
 .post-by-name,
@@ -198,7 +198,7 @@ a {
 /* LATEST NEWS SECTION */
 
 .latest-news-h1 {
-  margin: 40px 0 30px 18px
+  margin: 40px 0 30px 18px;
 }
 
 .latest-news-div {
@@ -253,6 +253,25 @@ a {
   margin-left: 10px;
 }
 
+.funding-round-head a {
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.funding-market-company-bottom a {
+  font-weight: bold;
+}
+
+.company-type-name,
+.funding-company-info a {
+  color: #646464;
+  font-size: 1.4rem;
+}
+
+.hardfork-list a {
+  color: #646a6f;
+}
+
 .latest-text-container div a {
   padding-right: 10px;
 }
@@ -274,17 +293,12 @@ a {
   margin-bottom: 20px;
 }
 
-.funding-round-head a {
-  font-weight: 300;
-  padding: 10px 0;
-}
-
 .funding-market-company {
   position: relative;
 }
 
 .funding-market-company-top {
-  background:  #ff4422;
+  background: #f42;
   padding: 14px 0;
   text-align: left;
   padding-left: 80px;
@@ -310,21 +324,11 @@ a {
   height: 60px;
 }
 
-.funding-market-company-bottom a {
-  font-weight: bold;
-}
-
 .funding-company-type {
   margin: 10px 0 10px 12px;
   padding: 10px 0 15px 0;
   background: #fffaf8;
   border-bottom: 1px solid #ffcdc2;
-}
-
-.company-type-name,
-.funding-company-info a {
-  color: #646464;
-  font-size: 1.4rem;
 }
 
 .funding-company-type i {
@@ -338,7 +342,7 @@ a {
 }
 
 .end-text-whiter {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 /* ----------- Hard Fork Section --------- */
@@ -361,16 +365,12 @@ a {
 }
 
 .hardfork-div ul {
-  list-style: cross-fade();
+  list-style: disc;
 }
 
 .hardfork-list {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   padding: 10px 10px;
-}
-
-.hardfork-list a {
-  color: #646a6f;
 }
 
 .main-hardfork-news,
@@ -381,8 +381,8 @@ a {
 .main-podium-news,
 .main-insights-news,
 .main-launch-news,
-.main-distract-news { 
-  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+.main-distract-news {
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
 }
 
 .hard-fork-img,
@@ -405,7 +405,6 @@ a {
 }
 
 .hard-fork-img {
-
   background-image: url(/assets/images/more-news/hardfork-small.jpg);
   background-position: center;
   background-size: cover;
@@ -544,6 +543,7 @@ a {
   background-size: cover;
   background-position: center;
 }
+
 .deals-bg-img-6 {
   background: url(/assets/images/latest-deals/deals-six.jpg);
   background-size: cover;
@@ -593,13 +593,13 @@ a {
   font-size: 1.6rem;
   padding: 7px 8px;
   margin: 5px;
-  background-color: #333333;
-  border: 2px solid #333333;
+  background-color: #333;
+  border: 2px solid #333;
   border-radius: 50%;
 }
 
 .footer-list-items:hover {
-  background-color:#131313;
+  background-color: #131313;
   cursor: pointer;
 }
 
@@ -637,7 +637,7 @@ a {
 }
 
 .latest-text-container p:hover {
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-text-container p:hover,
@@ -652,7 +652,7 @@ a {
 }
 
 .news-by:hover {
-  color: #333333;
+  color: #333;
 }
 
 .search-icon-header:hover {

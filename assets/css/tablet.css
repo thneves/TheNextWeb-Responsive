@@ -1,6 +1,6 @@
 .header .menu-icon-header {
   display: none;
- }
+}
 
 .nav-black {
   display: flex;
@@ -8,6 +8,17 @@
   height: 32px;
   width: 100%;
   padding-left: 110px;
+}
+
+.nav-black-list-item a,
+.nav-white-list-item a {
+  color: #aaa5a0;
+  margin: 0 8px;
+  align-self: center;
+}
+
+.news-white a {
+  color: white;
 }
 
 .nav-black-list-item a:hover {
@@ -24,21 +35,14 @@
   display: flex;
 }
 
-.nav-black-list-item a,
-.nav-white-list-item a {
-  color: #aaa5a0;
-  margin: 0 8px;
-  align-self: center;
-}
-
-.news-white a {
-  color: white;
-}
-
 .nav-white {
   width: 100%;
   align-self: center;
   margin-left: 110px;
+}
+
+.founding-horizontal-links a {
+  padding-right: 15px;
 }
 
 .nav-white-list-item a:hover {
@@ -63,15 +67,15 @@
 .grid1-2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin-top: 15px;
   row-gap: 10px;
 }
 
 .main-page-news {
-  grid-row: 1/3 ;
+  grid-row: 1/3;
   height: 100%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .main-page-news-2,
@@ -97,7 +101,7 @@
 }
 
 .latest-text-container {
-  margin: 10px 0 ;
+  margin: 10px 0;
 }
 
 .lastest-deals-head {
@@ -120,9 +124,9 @@
 .main-podium-news,
 .main-insights-news,
 .main-launch-news,
-.main-distract-news { 
-box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
-min-height: 250px;
+.main-distract-news {
+  box-shadow: inset -6px -114px 14px -7px rgba(0,0,0,0.88);
+  min-height: 250px;
 }
 
 .grid-3 {
@@ -134,21 +138,17 @@ min-height: 250px;
 
 .founding-horizontal-links {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   padding: 0;
 }
 
-.founding-horizontal-links a {
-  padding-right: 15px;
-}
-
-.funding-round-head  a {
+.funding-round-head a {
   padding: 0 10px 0 0;
   margin: 10px 10px 0 0;
 }
 
 .founding-horizontal-border {
-  border-right: 1px solid #ff4422;
+  border-right: 1px solid #f42;
   padding-right: 10px;
 }
 
@@ -159,7 +159,7 @@ min-height: 250px;
 .big-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .footer-info,
