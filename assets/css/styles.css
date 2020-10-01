@@ -148,7 +148,7 @@ a {
 /* FIRST PAGE NEWS SECTION */
 
 .main-page-news {
-  background: url(/assets/images/news-image-one.png);
+  background: url(assets/images/news-image-one.png);
   background-position: left 25% top 10%;
   background-size: 100% 100%;
 }
@@ -175,12 +175,12 @@ a {
 }
 
 .main-page-news-2 {
-  background: url(/assets/images/news-image-two.jpg);
+  background: url(assets/images/news-image-two.jpg);
   background-size: cover;
 }
 
 .main-page-news-3 {
-  background: url(/assets/images/news-image-three.png);
+  background: url(assets/images/news-image-three.png);
   background-size: 100% 100%;
   box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
 }
