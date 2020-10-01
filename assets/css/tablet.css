@@ -41,9 +41,7 @@
   padding-right: 15px;
 }
 
-.nav-white-list-item a:hover {
-  color: black;
-}
+
 
 .header-bottom-text {
   text-align: left;
@@ -175,6 +173,10 @@
   opacity: 0.95;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.nav-white-list-item a:hover {
+  color: black;
 }
 
 .nav-black-list-item a:hover {
