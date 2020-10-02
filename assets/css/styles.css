@@ -1,0 +1,671 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 60%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* GLOBAL SETTINGS */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-color-gray {
+  color: gray;
+}
+
+.primary-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.second-font {
+  font-family: 'Archivo', sans-serif;
+}
+
+.font-smaller {
+  font-size: 1rem;
+}
+
+.font-small {
+  font-size: 1.2rem;
+}
+
+.font-medium {
+  font-size: 1.5rem;
+}
+
+.font-title {
+  font-size: 2.6rem;
+}
+
+.title-news-black {
+  color: black;
+  margin-bottom: 5px;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
+.orange-color {
+  color: #f42;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.nav-black,
+.nav-white-list,
+.ticket-btn,
+.happening-now,
+.tnw2020,
+.funding-market-inv {
+  display: none;
+}
+
+.date,
+.big-white-logo {
+  visibility: hidden;
+}
+
+.access-btn {
+  background-color: #146ff8;
+  padding: 8px 10px;
+  font-size: 2.2rem;
+  color: white;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  border: none;
+}
+
+/* HEADER */
+
+.container {
+  margin-top: 100px;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+}
+
+.header-top {
+  justify-content: space-between;
+}
+
+.logo-small {
+  width: 100px;
+  height: auto;
+}
+
+.header-btns i {
+  padding: 15px;
+  border-left: 1px solid #e8e8e8;
+}
+
+.search-icon-header {
+  color: #e8e8e8;
+  font-size: 2rem;
+}
+
+.menu-icon-header {
+  color: #f42;
+  font-size: 2.2rem;
+}
+
+.header-bottom-text {
+  background-color: #fd3;
+  color: black;
+  text-decoration: none;
+  padding: 23px 0 23px 6px;
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* FIRST PAGE NEWS SECTION */
+
+.main-page-news {
+  background: url(../images/news-image-one.png);
+  background-position: left 25% top 10%;
+  background-size: 100% 100%;
+}
+
+.page-news {
+  height: 180px;
+  width: 95%;
+  padding: 0 10px 15px 10px;
+  align-self: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  box-shadow: inset -11px -30px 30px 23px rgba(0, 0, 0, 0.9);
+}
+
+.page-news-title {
+  font-size: 1.4rem;
+}
+
+.page-news-heading {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.main-page-news-2 {
+  background: url(../images/news-image-two.jpg);
+  background-size: cover;
+}
+
+.main-page-news-3 {
+  background: url(../images/news-image-three.png);
+  background-size: 100% 100%;
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
+}
+
+.post-by-name,
+.fa-clock,
+.fa-share-alt {
+  margin-right: 5px;
+}
+
+.fa-share-alt {
+  margin-left: 5px;
+}
+
+/* LATEST NEWS SECTION */
+
+.latest-news-h1 {
+  margin: 40px 0 30px 18px;
+}
+
+.latest-news-div {
+  padding: 10px 12px 5px 10px;
+}
+
+.latest-bg-img-1 {
+  background-image: url(../images/latest-news/latest-one.jpg);
+}
+
+.latest-bg-img-2 {
+  background-image: url(../images/latest-news/latest-two.png);
+}
+
+.latest-bg-img-3 {
+  background-image: url(../images/latest-news/latest-three.jpg);
+}
+
+.latest-bg-img-4 {
+  background-image: url(../images/latest-news/latest-four.png);
+}
+
+.latest-bg-img-5 {
+  background-image: url(../images/latest-news/latest-five.png);
+}
+
+.latest-bg-img-6 {
+  background-image: url(../images/latest-news/latest-six.jpg);
+}
+
+.latest-bg-img-7 {
+  background-image: url(../images/latest-news/latest-seven.jpg);
+}
+
+.latest-bg-img-8 {
+  background-image: url(../images/latest-news/latest-eigth.jpg);
+}
+
+.latest-news-anchor {
+  min-width: 75px;
+  height: 75px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.latest-news-img {
+  height: 100px;
+  width: 100px;
+}
+
+.latest-text-container {
+  margin-left: 10px;
+}
+
+.funding-round-head a {
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.funding-market-company-bottom a {
+  font-weight: bold;
+}
+
+.company-type-name,
+.funding-company-info a {
+  color: #646464;
+  font-size: 1.4rem;
+}
+
+.hardfork-list a {
+  color: #646a6f;
+}
+
+.latest-text-container div a {
+  padding-right: 10px;
+}
+
+/* LATEST FUNDIND ROUND SECTION  */
+
+.funding-round-section {
+  margin-top: 30px;
+  width: 95%;
+  align-self: center;
+  margin-left: 15px;
+}
+
+.funding-round-h1 {
+  line-height: 2.8rem;
+}
+
+.funding-round-head {
+  margin-bottom: 20px;
+}
+
+.funding-market-company {
+  position: relative;
+}
+
+.funding-market-company-top {
+  background: #f42;
+  padding: 14px 0;
+  text-align: left;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.funding-market-company-bottom {
+  background: #ffebe7;
+  text-align: left;
+  padding: 20px 0 20px 80px;
+}
+
+.fund-company-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.fund-company-logo {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.funding-company-type {
+  margin: 10px 0 10px 12px;
+  padding: 10px 0 15px 0;
+  background: #fffaf8;
+  border-bottom: 1px solid #ffcdc2;
+}
+
+.funding-company-type i {
+  margin: 0 4px 6px 0;
+}
+
+.funding-company-info {
+  background: #fffaf8;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.end-text-whiter {
+  color: #aaa;
+}
+
+/* ----------- Hard Fork Section --------- */
+
+.second-hardfork-news {
+  height: 98px;
+  width: 95%;
+  padding-left: 18px;
+  margin: -8px 0 0 0;
+  background-color: #fff4f2;
+}
+
+.hardfork-a {
+  font-weight: 700;
+}
+
+.hardfork-div {
+  width: 85%;
+  margin: 10px auto;
+}
+
+.hardfork-div ul {
+  list-style: disc;
+}
+
+.hardfork-list {
+  border-bottom: 1px solid #eee;
+  padding: 10px 10px;
+}
+
+.main-hardfork-news,
+.main-app-news,
+.main-gear-news,
+.main-tech-news,
+.main-creative-news,
+.main-podium-news,
+.main-insights-news,
+.main-launch-news,
+.main-distract-news {
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
+}
+
+.hard-fork-img,
+.app-img,
+.gear-img,
+.tech-img,
+.creative-img,
+.podium-img,
+.insights-img,
+.launch-img,
+.distract-img {
+  min-width: 96px;
+  height: 96px;
+}
+
+.main-hardfork-news {
+  background: url(../images/latest-news/latest-six.jpg);
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+.hard-fork-img {
+  background-image: url(../images/more-news/hardfork-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-app-news {
+  background: url(../images/more-news/app-big.png);
+  background-size: 100% 100%;
+}
+
+.app-img {
+  background-image: url(../images/more-news/app-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-gear-news {
+  background: url(../images/more-news/gear-big.png);
+  background-size: 100% 100%;
+}
+
+.gear-img {
+  background-image: url(../images/more-news/gear-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-tech-news {
+  background: url(../images/more-news/tech-big.png);
+  background-size: 100% 100%;
+}
+
+.tech-img {
+  background: url(../images/more-news/tech-small.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-creative-news {
+  background: url(../images/more-news/creative-big.jpg);
+  background-size: 100% 100%;
+}
+
+.creative-img {
+  background: url(../images/more-news/creative-small.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-podium-news {
+  background: url(../images/more-news/podium-big.png);
+  background-size: 100% 100%;
+}
+
+.podium-img {
+  background: url(../images/more-news/podium-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-insights-news {
+  background: url(../images/more-news/insights-big.png);
+  background-size: 100% 100%;
+}
+
+.insights-img {
+  background: url(../images/more-news/insights-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-launch-news {
+  background: url(../images/more-news/launch-big.jpg);
+  background-size: 100% 100%;
+}
+
+.launch-img {
+  background: url(../images/more-news/launch-small.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-distract-news {
+  background: url(../images/more-news/distract-big.png);
+  background-size: 100% 100%;
+}
+
+.distract-img {
+  background: url(../images/more-news/distract-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* lastest deals sections */
+
+.lastest-deals-head {
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 25px;
+}
+
+.latest-deals-h5 {
+  font-weight: 300;
+}
+
+.text-line {
+  text-decoration: line-through;
+}
+
+.deals-bg-img-1 {
+  background: url(../images/latest-deals/deals-one.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-2 {
+  background: url(../images/latest-deals/deals-two.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-3 {
+  background: url(../images/latest-deals/deals-three.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-4 {
+  background: url(../images/latest-deals/deals-four.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-5 {
+  background: url(../images/latest-deals/deals-five.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-6 {
+  background: url(../images/latest-deals/deals-six.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-7 {
+  background: url(../images/latest-deals/deals-seven.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-bg-img-8 {
+  background: url(../images/latest-deals/deals-eight.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* FOOTER */
+
+.footer-links-div {
+  background: #131313;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-links-list {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 340px;
+  margin: 25px 0;
+}
+
+.footer-links-list-bottom {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 280px;
+}
+
+.footer-list-items {
+  font-size: 1.6rem;
+  padding: 7px 8px;
+  margin: 5px;
+  background-color: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.footer-list-items:hover {
+  background-color: #131313;
+  cursor: pointer;
+}
+
+.footer-items-bottom {
+  color: #aaa5a0;
+  font-size: 1.2rem;
+  margin: 0 4px;
+}
+
+.footer-info {
+  background: #000;
+  color: #aaa5a0;
+  font-size: 1.2rem;
+  padding: 30px;
+  align-items: center;
+  align-self: center;
+}
+
+.footer-info span {
+  padding: 2px 0;
+}
+
+.footer-logos {
+  padding: 0 3px;
+}
+
+/* Hover Effects */
+
+.font-title:hover,
+.latest-deals-h5:hover,
+.hardfork-list a:hover,
+.funding-more-links:hover,
+.company-type-name:hover {
+  color: black;
+}
+
+.latest-text-container p:hover {
+  color: #f42;
+}
+
+.latest-text-container p:hover,
+.page-news-heading:hover,
+.hardfork-a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffcdc2;
+}
+
+.page-news-heading:hover {
+  text-decoration-color: #646464;
+}
+
+.news-by:hover {
+  color: #333;
+}
+
+.search-icon-header:hover {
+  color: gray;
+}
+
+.post-by-name:hover,
+.page-news-bottom a:hover,
+.footer-items-bottom:hover {
+  color: white;
+}
+
+.gray-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: #646464;
+}

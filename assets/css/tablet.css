@@ -1,0 +1,182 @@
+.header .menu-icon-header {
+  display: none;
+}
+
+.nav-black {
+  display: flex;
+  background-color: #131313;
+  height: 32px;
+  width: 100%;
+  padding-left: 110px;
+}
+
+.nav-black-list-item a,
+.nav-white-list-item a {
+  color: #aaa5a0;
+  margin: 0 8px;
+  align-self: center;
+}
+
+.news-white a {
+  color: white;
+}
+
+.nav-black-list,
+.nav-white-list {
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-white-list {
+  display: flex;
+}
+
+.nav-white {
+  width: 100%;
+  align-self: center;
+  margin-left: 110px;
+}
+
+.founding-horizontal-links a {
+  padding-right: 15px;
+}
+
+.header-bottom-text {
+  text-align: left;
+  padding: 8px 0 8px 118px;
+}
+
+.logo-small {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 81px;
+  width: 106px;
+  padding: 15px;
+  background-color: black;
+}
+
+.grid1-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 15px;
+  row-gap: 10px;
+}
+
+.main-page-news {
+  grid-row: 1/3;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-page-news-2,
+.main-page-news-3 {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.latest-news-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 15px;
+}
+
+.latest-news-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-news-anchor {
+  min-height: 114px;
+}
+
+.latest-text-container {
+  margin: 10px 0;
+}
+
+.lastest-deals-head {
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  margin: 10px 0;
+  width: 95%;
+}
+
+.latest-deals-h5 {
+  margin-right: -10px;
+}
+
+.main-hardfork-news,
+.main-app-news,
+.main-gear-news,
+.main-tech-news,
+.main-creative-news,
+.main-podium-news,
+.main-insights-news,
+.main-launch-news,
+.main-distract-news {
+  box-shadow: inset -6px -114px 14px -7px rgba(0, 0, 0, 0.88);
+  min-height: 250px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+
+.founding-horizontal-links {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.funding-round-head a {
+  padding: 0 10px 0 0;
+  margin: 10px 10px 0 0;
+}
+
+.founding-horizontal-border {
+  border-right: 1px solid #f42;
+  padding-right: 10px;
+}
+
+.fund-company-name {
+  font-size: 14px;
+}
+
+.big-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-info,
+.footer-info span {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-news-heading:hover {
+  text-decoration: none;
+}
+
+.main-page-news:hover,
+.main-page-news-2:hover,
+.main-page-news-3:hover {
+  opacity: 0.95;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-white-list-item a:hover {
+  color: black;
+}
+
+.nav-black-list-item a:hover {
+  color: white;
+}
